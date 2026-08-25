@@ -1,0 +1,7 @@
+services:
+  kalkulator:
+    build: .
+    container_name: kalkulator-app
+    ports:
+      - "8080:80"
+    restart: unless-stopped
